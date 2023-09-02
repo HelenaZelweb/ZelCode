@@ -1,0 +1,156 @@
+/* ---- particles.js container ---- */
+#particles-js {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: #191431;
+  background-image: url(style.css);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* -----NAVBAR -----*/
+nav {
+  width: 100%;
+  background-color: #191431;
+}
+
+#nav-link {
+  font-size: 14px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+#navbar {
+  color: white;
+}
+#nav-button {
+  border: 4px;
+  border-color: #fbbbb4;
+  border-radius: 5px;
+  border-style: groove;
+}
+
+.text-block {
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.myname {
+  font-family: font-file-82132;
+  color: white;
+  margin-top: 70px;
+  font-size: 30px;
+  z-index: 3;
+}
+.mynametwo {
+  font-family: font-file-82132;
+  color: white;
+  margin-top: 40px;
+  font-size: 50px;
+  z-index: 3;
+}
+.dev {
+  font-size: 20px;
+  color: #8d8d8d;
+  margin-top: 40px;
+  z-index: 3;
+}
+#btn {
+  z-index: 2;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  justify-self: flex-end;
+  margin-bottom: auto;
+}
+
+.btn-contact {
+  z-index: 3;
+  position: absolute;
+   align-self: center;
+  justify-content: center;
+  margin-top: 280px;
+  border-radius: 20px;
+  background-color: white;
+  color: #191431;
+  font-size: 20px;
+  width: 200px;
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid #fbbbb4;
+}
+
+#popup {
+  display: none;
+  flex-wrap: wrap;
+  z-index: 6;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 500px;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  background: #191431;
+}
+#popupForma {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+#close {
+  display: flex;
+  justify-content: flex-end;
+  background: #fbbbb4;
+}
+label {
+  display: flex;
+  margin-top: 5px;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #fbbbb4;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  width: 400px;
+}
+#application {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #fbbbb4;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 20px;
+  font-size: 13px;
+}
+#put {
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 10px;
+}
+#button {
+  width: 400px;
+  background-color: #fbbbb4;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+@media all and (max-width: 800px) {
+  .myname {
+    font-size: 30px;
+  }
+  .mynametwo {
+    font-size: 20px;
+  }
+  .dev {
+    font-size: 10px;
+  }
+}
